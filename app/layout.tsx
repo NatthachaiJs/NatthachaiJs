@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="th" className={`${kanit.variable} h-full antialiased`}>
+    <html lang="en" className={`${kanit.variable} h-full antialiased`}>
       <head>
         <link
           rel="stylesheet"

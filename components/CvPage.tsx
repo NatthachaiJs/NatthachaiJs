@@ -46,7 +46,7 @@ function TimelineList({ items, lang }: { items: TimelineEntry[]; lang: Lang }) {
 }
 
 export default function CvPage() {
-  const [lang, setLang] = useState<Lang>("th");
+  const [lang, setLang] = useState<Lang>("en");
   const [loaded, setLoaded] = useState(false);
   const [typed, setTyped] = useState(0);
   const [progress, setProgress] = useState(0);
